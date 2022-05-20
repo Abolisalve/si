@@ -1,0 +1,38 @@
+body{
+    background-color:darkorchid;
+}
+
+h1{
+    color:dodgerblue;
+    background-color: floralwhite;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid #c9870e;
+    border-radius:20px;
+    animation-name:Aboli;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
+
+@keyframes Aboli{
+     from {box-shadow:1px 1px 38px rgb(81, 81, 214);}
+     to{box-shadow:1px 1px 38px rgb(238, 238, 62)}
+}
+
+
+
+p
+{
+    padding-top:10px;
+    font-size:25px;
+
+
+}
